@@ -1,15 +1,17 @@
-<!-- This file was started using a bootstrap template from https://getbootstrap.com/docs/4.4/getting-started/introduction/ -->
+<!-- This file was started using a starter template from https://getbootstrap.com/docs/4.4/getting-started/introduction/ -->
 
 <!--Sets document type to HTML-->
-<!doctype HTML>
+<!DOCTYPE HTML>
 
 <!-- Beginning of HTML, Language set to English. -->
-<html lang="en-us">
+<html 
+    lang="en-us"
+>
 
     <!-- Head Element. -->
     <head>
 
-        <!-- Required Metadata -->
+        <!-- Required Metadata (Determines the Characters that can be used) -->
         <meta 
             charset="utf-8"
         />
@@ -28,20 +30,26 @@
             crossorigin="anonymous"
         />
 
-        <!-- Google Fonts CSS -->
-        <link 
-            href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand&display=swap" 
-            rel="stylesheet"
-        />
-
         <!-- Font Awesome CSS -->
         <script 
             src="https://kit.fontawesome.com/44f6844bdb.js" 
             crossorigin="anonymous"
         ></script>
 
+        <!-- Google Fonts CSS -->
+        <link 
+            href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand&display=swap" 
+            rel="stylesheet"
+        />
+
+        <!-- Style CSS -->
+        <link
+            rel="stylesheet"
+            href="Assets/style.css"
+        />
+
         <!-- Title. -->
-        <title>Florencia Tabarez | First Portfolio | About Me Page</title>
+        <title>Florencia Tabarez | First Portfolio | About Page</title>
 
     </head>
     <!-- End of Head Element. -->
@@ -49,88 +57,119 @@
     <!-- Beginning of body tag. -->
     <body>
 
-        <!-- Navigation Bar, Copied navbar example from Bootstrap website -->
-        <nav
-            class="navbar navbar-expand-lg navbar-light"
-            style="background-color: salmon;"
-        >
+        <header>
+            <!-- Navigation Bar, Copied navbar example from Bootstrap website -->
+            <nav
+                class="navbar navbar-expand-lg navbar-light"
+                style="background-color: salmon;"
+            >
 
-            <!-- Navbar Brand -->
-            <a 
-                class="navbar-brand" 
-                href="#"
-            >FLORENCIA TABAREZ</a>
+                <!-- Navbar Brand -->
+                <a 
+                    class="navbar-brand header-font" 
+                    href="#"
+                >FLORENCIA TABAREZ</a>
 
-                <!-- Navigation Bar Toggle Button Icon and Function -->
-                <button 
-                    class="navbar-toggler" 
-                    type="button" 
-                    data-toggle="collapse" 
-                    data-target="#navbarNav" 
-                    aria-controls="navbarNav" 
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation"
-                >
-                    <span 
-                        class="navbar-toggler-icon"
-                    ></span>
-                </button>
+                    <!-- Navigation Bar Toggle Button (Hamburger) Icon and Function -->
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarNav" 
+                        aria-controls="navbarNav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation"
+                    >
+                        <span 
+                            class="navbar-toggler-icon"
+                        ></span>
+                    </button>
 
-                <!-- Navbar Division with Collapsable Function -->
-                <div 
-                    class="collapse navbar-collapse" 
-                    id="navbarNav"
-                >
-                    <!-- Beginning of Navbar Unordered List Element -->
-                    <ul 
-                        class="navbar-nav"
+                    <!-- Navbar Division with Collapsable Function -->
+                    <div 
+                        class="collapse navbar-collapse" 
+                        id="navbarNav"
                     >
 
-                        <!-- First List Item with anchor link to ABOUT ME / MAIN page -->
-                        <li 
-                            class="nav-item"
+                        <!-- Beginning of Navbar Unordered List Element -->
+                        <ul 
+                            class="navbar-nav"
                         >
-                            <a 
-                                class="nav-link" 
-                                href="./index.html"
-                            >
-                            <!-- Font Awesome Icon for About Me Link -->
-                            <i class="fas fa-user-circle"></i> About Me </a>
-                        </li>
 
-                        <!-- Second List Item with anchor link to PORTFOLIO page -->
-                        <li 
-                            class="nav-item"
-                        >
-                            <a 
-                                class="nav-link" 
-                                href="./portfolio.html"
+                            <!-- First List Item with anchor link to ABOUT ME / MAIN page -->
+                            <li 
+                                class="nav-item styled-font"
                             >
-                            <!-- Font Awesome Icon for Portfolio Page Link -->
-                            <i class="fas fa-book-open"></i> Portfolio </a>
-                        </li>
 
-                        <!-- Third List Item with Anchor Link to CONTACT page -->
-                        <li 
-                            class="nav-item"
-                        >
-                            <a 
-                                class="nav-link" 
-                                href="./contact.html"
+                                <!-- Beginning of Anchor -->
+                                <a 
+                                    class="nav-link" 
+                                    href="./index.html"
+                                >
+                                
+                                    <!-- Font Awesome Icon for About Me Link -->
+                                    <i 
+                                        class="fas fa-user-circle"
+                                    ></i> About 
+                                </a>
+                                <!-- End of Anchor -->
+
+                            </li>
+                            <!-- End of First List Item -->
+
+                            <!-- Second List Item with anchor link to PORTFOLIO page -->
+                            <li 
+                                class="nav-item styled-font"
                             >
+                                
+                                <!-- Beginning of Anchor -->
+                                <a 
+                                    class="nav-link" 
+                                    href="./portfolio.html"
+                                >
+                                
+                                    <!-- Font Awesome Icon for Portfolio Page Link -->
+                                    <i 
+                                        class="fas fa-book-open"
+                                    ></i> Portfolio 
+                                </a>
+                                <!-- End of Anchor -->
+
+                            </li>
+                            <!-- End of Second List Item -->
+
+                            <!-- Third List Item with Anchor Link to CONTACT page -->
+                            <li 
+                                class="nav-item nav-item-font"
+                            >
+                                
+                                <!-- Beginning of Anchor -->
+                                <a 
+                                    class="nav-link" 
+                                    href="./contact.html"
+                                >
                             
-                            <!-- Font Awesome Icon for Contact Page Link -->
-                            <i class="fas fa-at"></i> Contact Me </a>
-                        </li>
+                                    <!-- Font Awesome Icon for Contact Page Link -->
+                                    <i 
+                                        class="fas fa-at"
+                                    ></i> Contact 
+                                </a>
+                                <!-- End of Anchor -->
 
-                    </ul>
-                    <!-- End of Unordered List -->
+                            </li>
+                            <!-- End of Third List Item -->
 
-                </div>
-                <!-- End of Navbar Division -->
+                        </ul>
+                        <!-- End of Unordered List -->
 
-        </nav>
-        <!-- End of Navigation Element. -->
+                    </div>
+                    <!-- End of Navbar Division -->
+
+            </nav>
+            <!-- End of Navigation Element. -->
+
+        </header>
+        <!-- End of Header Element -->
 
         <!-- Grid + Card Copied from my solution to previous in-class activity for week 2, exercise 16 -->
         <!-- Main Content Container Division for Gridding -->
@@ -144,22 +183,24 @@
             >
 
                 <!-- C:1, R:1. Size medium, Takes up 3/4 of Row Width -->
-                <div 
+                <main 
                     class="col-md-9"
                 >
 
-                    <!-- R:A, C:1, R:1 First Row Inside First (Above) Column -->
+                    <!-- R:A, C:1, R:1 First Row Inside First Column -->
                     <div 
                         class="row"
                     >
 
-                        <!-- C:A, R:A, C:1, R:1. Inside Row within column, size Medium, Takes Total Width of Containing Row -->
+                        <!-- C:A, R:A, C:1, R:1. Size Medium, Takes Total Width of Containing Row -->
                         <div 
                             class="col-md-12"
                         >
                                 
                             <!-- First Header -->
-                            <h1>about me</h1>
+                            <h1
+                                class="header-font"
+                            > about me </h1>
 
                         </div>
                         <!-- End of Column C:A, R:A, C:1, R:1. -->
@@ -180,8 +221,8 @@
                             <!-- Image Contained Iniside C:B, R:B, C:1, R:1 with Alt -->
                             <img 
                                 class=""
-                                src="https://via.placeholder.com/150" 
-                                alt="" 
+                                src="./Assets/Images/florencia.JPG" 
+                                alt="Florencia Tabarez" 
                             />
 
                         </div>
@@ -193,7 +234,9 @@
                         >
                                 
                             <!-- About Me Text -->
-                            <p>My name is Florencia Tabarez. I'm a Utah County-based student at the University of Utah's Coding Bootcamp. I'm learning about many new tools and technologies. Among these are Git, HTML 5, CSS 3, Bootstrap Library, JavaScript and more. I'm excited to learn more. Check my Contact Page for details on how to get in touch with me.</p>
+                            <p
+                                class="styled-font"
+                            >Florencia Tabarez is a twenty-two-year-old Utah County-based student at the University of Utah's Coding Bootcamp. She likes listening to bands like Unknown Mortal Orchestra, Foxygen, the Yeah Yeah Yeahs, TV Girl and STRFKR while coding. She's vegan, and she loves brufax and sriracha on almost everything. When she's not coding, she's reading about neuroplasticity, nutritional science, counter-economics or solar activity.</p>
         
                         </div>
                         <!-- End of C:B, R:B, C:1, R:1 -->
@@ -201,7 +244,7 @@
                     </div>
                     <!-- End of R:B, C:1, R:1 -->
 
-                </div>
+                </main>
                 <!-- End of C:1, R:1 -->
                      
                 <!-- C:2, R:1. Column 2, Takes Up 1/4 of row width -->
@@ -209,8 +252,8 @@
                     class="col-md-3"
                 >
 
-                    <!-- Division for Card -->
-                    <div 
+                    <!-- Aside Element for Card -->
+                    <aside 
                         class="card"
                     >
 
@@ -220,40 +263,68 @@
                         >
 
                             <h4 
-                                class="card-title"
+                                class="card-title header-font"
                             >
-                                Card Title
+                                social
                             </h4>
                               
                               
                             <p 
-                                class="card-text"
+                                class="card-text styled-font"
                             >
-                                Some quick example text to build on the card title
-                                and make up the bulk of the card's content.
+                                Want to see more? Find Florencia on these platforms.
                             </p>
 
-
+                            <!-- First Button and Link to GitHub -->
                             <a 
-                                href="#!" 
-                                class="btn btn-primary"
+                                href="https://fftab.github.io/" 
+                                class="btn btn-light salmon"
                             >
-                            Go somewhere
-                            </a>
 
+                                <!-- Font Awesome Icon -->
+                                <i 
+                                    class="fab fa-github"></i>
+                            </a>
+                            <!-- End of First Button -->
+
+                            <!-- Second Button and Link to LinkedIn -->
+                            <a 
+                                href="https://www.linkedin.com/in/flo-tabarez/"
+                                class="btn btn-light salmon"
+                            >
+
+                                <!-- Font Awesome Icon -->
+                                <i 
+                                    class="fab fa-linkedin-in"
+                                ></i>
+                            </a>
+                            <!-- End of Second Button -->
+
+                            <!-- Third Button and Link to MeetUp -->
+                            <a
+                                href="https://www.meetup.com/members/304510256/"
+                                class="btn btn-light salmon"
+                            >
+
+                                <!-- Font Awesome Icon -->
+                                <i 
+                                    class="fab fa-meetup"
+                                ></i>
+                            </a>
+                            <!-- End of Third Button -->
 
                         </div>
                         <!-- End of Card Body Division -->
 
 
-                    </div>
-                    <!-- End of Card Division -->
+                    </aside>
+                    <!-- End of Card Aside -->
 
                 </div>
                 <!-- End of C:2, R:1 -->
-                
+
             </div>
-            <!-- End of Division for Row 1, R:1 -->
+            <!-- End of Division for Grid Row 1, R:1 -->
 
         </div>
         <!-- End of Container Division for Grid -->

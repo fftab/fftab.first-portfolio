@@ -1,10 +1,12 @@
-<!-- This file was started using a bootstrap template from https://getbootstrap.com/docs/4.4/getting-started/introduction/ -->
+<!-- This file was started using a starter template from https://getbootstrap.com/docs/4.4/getting-started/introduction/ -->
 
 <!-- Sets Document Type to HTML. -->
 <!DOCTYPE html>
 
 <!-- Beginning of HTML, Language set to English. -->
-<html lang="en-us">
+<html 
+    lang="en-us"
+>
 
     <!-- Head Element. -->
     <head>
@@ -15,23 +17,17 @@
         />
 
         <!-- Mobile First Viewport -->
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        <meta 
+            name="viewport" 
+            content="width=device-width, initial-scale=1, shrink-to-fit=no" 
         />
 
         <!-- Bootstrap CSS -->
-        <link
+        <link 
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-            crossorigin="anonymous"
-        />
-
-        <!-- Google Fonts CSS -->
-        <link 
-            href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand&display=swap" 
-            rel="stylesheet"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+            crossorigin="anonymous" 
         />
 
         <!-- Font Awesome CSS -->
@@ -39,6 +35,18 @@
             src="https://kit.fontawesome.com/44f6844bdb.js" 
             crossorigin="anonymous"
         ></script>
+
+        <!-- Google Fonts CSS -->
+        <link 
+            href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand&display=swap" 
+            rel="stylesheet" 
+        />
+
+        <!-- Style CSS -->
+        <link 
+            rel="stylesheet" 
+            href="Assets/style.css"
+        />
 
         <!-- Title. -->
         <title>Florencia Tabarez | First Portfolio | Contact Page</title>
@@ -49,24 +57,27 @@
     <!-- Beginning of body tag. -->
     <body>
 
-        <!-- Navigation Bar, Copied navbar example from Bootstrap website -->
-        <nav
-            class="navbar navbar-expand-lg navbar-light"
-            style="background-color: salmon;"
-        >
+        <!-- Beginning of Header -->
+        <header>
 
-            <!-- Navbar Brand -->
-            <a 
-                class="navbar-brand" 
-                href="#"
-            >FLORENCIA TABAREZ</a>
+            <!-- Navigation Bar, Copied navbar example from Bootstrap website -->
+            <nav 
+                class="navbar navbar-expand-lg navbar-light" 
+                style="background-color: salmon;"
+            >
+
+                <!-- Navbar Brand Anchor -->
+                <a 
+                    class="navbar-brand header-font" 
+                    href="#"
+                >FLORENCIA TABAREZ</a>
 
                 <!-- Navigation Bar Toggle Icon and Function -->
                 <button 
                     class="navbar-toggler" 
                     type="button" 
                     data-toggle="collapse" 
-                    data-target="#navbarNav" 
+                    data-target="#navbarNav"
                     aria-controls="navbarNav" 
                     aria-expanded="false" 
                     aria-label="Toggle navigation"
@@ -81,51 +92,74 @@
                     class="collapse navbar-collapse" 
                     id="navbarNav"
                 >
+
                     <!-- Beginning of Navbar Unordered List Element -->
                     <ul 
                         class="navbar-nav"
                     >
-                        
+
                         <!-- First List Item with anchor link to ABOUT ME / MAIN page -->
                         <li 
-                            class="nav-item"
+                            class="nav-item styled-font"
                         >
+
+                            <!-- Beginning of anchor -->
                             <a 
                                 class="nav-link" 
                                 href="./index.html"
                             >
-                            
-                            <!-- Font Awesome Icon for About Me Link -->
-                            <i class="fas fa-user-circle"></i> About Me </a>
+
+                                <!-- Font Awesome Icon for About Me Link -->
+                                <i 
+                                    class="fas fa-user-circle"
+                                ></i> About 
+                            </a>
+                            <!-- End of Anchor -->
+
                         </li>
+                        <!-- End of first list item -->
 
                         <!-- Second List Item with anchor link to PORTFOLIO page -->
                         <li 
-                            class="nav-item"
+                            class="nav-item styled-font"
                         >
-                    
+
+                            <!-- Beginning of anchor -->
                             <a 
                                 class="nav-link" 
                                 href="./portfolio.html"
                             >
-                    
-                            <!-- Font Awesome Icon for Portfolio Page Link -->
-                            <i class="fas fa-book-open"></i> Portfolio </a>
+
+                                <!-- Font Awesome Icon for Portfolio Page Link -->
+                                <i 
+                                    class="fas fa-book-open"
+                                ></i> Portfolio 
+                            </a>
+                            <!-- End of Anchor -->
+
                         </li>
+                        <!-- End of  Second List Item -->
 
                         <!-- Third List Item with Anchor Link to CONTACT page -->
                         <li 
-                            class="nav-item"
+                            class="nav-item styled-font"
                         >
-                        
+
+                            <!-- Beginning of Anchor-->
                             <a 
                                 class="nav-link" 
                                 href="./contact.html"
                             >
-                    
-                            <!-- Font Awesome Icon for Contact Page Link -->
-                            <i class="fas fa-at"></i> Contact Me </a>
+
+                                <!-- Font Awesome Icon for Contact Page Link -->
+                                <i 
+                                    class="fas fa-at"
+                                ></i> Contact 
+                            </a>
+                            <!-- End of Anchor -->
+
                         </li>
+                        <!-- End of Third List Item -->
 
                     </ul>
                     <!-- End of Unordered List -->
@@ -136,26 +170,66 @@
             </nav>
             <!--End of Navigation Element.-->
 
-            <!-- Anchor Links to Contact Methods-->
-                <a href="https://fftab.github.io/"></a>
-                <a href="https://www.linkedin.com/in/flo-tabarez/"></a>
-                <a href="mailto:fftabarez97@gmail.com" subject="subject text"></a>
+        </header>
+        <!-- End of Header -->
+
+        <!-- Anchor Links to Contact Methods-->
+
+        <a href="mailto:fftabarez97@gmail.com" subject="subject text"></a>
+        <!-- Form Copied from Bootstrap Example -->
+        <form>
+
+
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <form action="https://formcarry.com/s/XXXXXX" method="POST">
+                <input type="email" name="email">
+                <input type="submit" value="Send">
+            </form>
+
+            <form>
+                <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input 
+                    type="email" 
+                    class="form-control" 
+                    id="exampleFormControlInput1" 
+                    placeholder="name@example.com"/>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Subject</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"/>
+                </div>
+            
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+            </form>
+
+        </form>
 
 
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script
+        <script 
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
             crossorigin="anonymous"
         ></script>
-        <script
+        <script 
             src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
             integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
             crossorigin="anonymous"
         ></script>
-        <script
+        <script 
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"

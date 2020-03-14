@@ -4,7 +4,9 @@
 <!DOCTYPE html>
 
 <!-- Beginning of HTML, Language set to English. -->
-<html lang="en-us">
+<html 
+    lang="en-us"
+>
   
     <!-- Head Element. -->
     <head>
@@ -28,17 +30,23 @@
             crossorigin="anonymous"
         />
 
+        <!-- Font Awesome CSS -->
+        <script 
+            src="https://kit.fontawesome.com/44f6844bdb.js" 
+            crossorigin="anonymous"
+        ></script>
+
         <!-- Google Fonts CSS -->
         <link 
             href="https://fonts.googleapis.com/css?family=Roboto|Shrikhand&display=swap" 
             rel="stylesheet"
         />
 
-        <!-- Font Awesome CSS -->
-        <script 
-            src="https://kit.fontawesome.com/44f6844bdb.js" 
-            crossorigin="anonymous"
-        ></script>
+        <!-- Style CSS -->
+        <link
+            rel="stylesheet"
+            href="Assets/style.css"
+        />
 
         <!-- Title. -->
         <title>Florencia Tabarez| First Portfolio | Portfolio Page</title>
@@ -49,90 +57,120 @@
     <!-- Beginning of body tag. -->
     <body>
         
-        <!-- Navigation Bar, Copied navbar example from Bootstrap website -->
-        <nav
-            class="navbar navbar-expand-lg navbar-light"
-            style="background-color: salmon;"
-        >
+        <!-- Beginning of Header -->
+        <header>
 
-            <!-- Navbar Brand -->
-            <a 
-                class="navbar-brand" 
-                href="#"
-            >FLORENCIA TABAREZ</a>
+            <!-- Navigation Bar, Copied navbar example from Bootstrap website -->
+            <nav
+                class="navbar navbar-expand-lg navbar-light"
+                style="background-color: salmon;"
+            >
 
-                <!-- Navigation Bar Toggle Icon and Function -->
-                <button 
-                    class="navbar-toggler" 
-                    type="button" 
-                    data-toggle="collapse" 
-                    data-target="#navbarNav" 
-                    aria-controls="navbarNav" 
-                    aria-expanded="false" 
-                    aria-label="Toggle navigation"
-                >
-                    <span 
-                        class="navbar-toggler-icon"
-                    ></span>
-                </button>
+                <!-- Navbar Brand -->
+                <a 
+                    class="navbar-brand header-font" 
+                    href="#"
+                >FLORENCIA TABAREZ</a>
 
-                <!-- Navbar Division with Collapsable Function -->
-                <div 
-                    class="collapse navbar-collapse" 
-                    id="navbarNav"
-                >
-                    <!-- Beginning of Navbar Unordered List Element -->
-                    <ul 
-                        class="navbar-nav"
+                    <!-- Navigation Bar Toggle Icon and Function -->
+                    <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarNav" 
+                        aria-controls="navbarNav" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation"
                     >
+                        <span 
+                            class="navbar-toggler-icon"
+                        ></span>
+                    </button>
+
+                    <!-- Navbar Division with Collapsable Function -->
+                    <div 
+                        class="collapse navbar-collapse" 
+                        id="navbarNav"
+                    >
+                        <!-- Beginning of Navbar Unordered List Element -->
+                        <ul 
+                            class="navbar-nav"
+                        >
                         
-                        <!-- First List Item with anchor link to ABOUT ME / MAIN page -->
-                        <li 
-                            class="nav-item"
-                        >
-                            <a 
-                                class="nav-link" 
-                                href="./index.html"
+                            <!-- First List Item with anchor link to ABOUT ME / MAIN page -->
+                            <li 
+                                class="nav-item styled-font"
                             >
-                            <!-- Font Awesome Icon for About Me Link -->
-                            <i class="fas fa-user-circle"></i> About Me </a>
-                        </li>
 
-                        <!-- Second List Item with anchor link to PORTFOLIO page -->
-                        <li 
-                            class="nav-item"
-                        >
-                            <a 
-                                class="nav-link" 
-                                href="./portfolio.html"
-                            >
-                            <!-- Font Awesome Icon for Portfolio Page Link -->
-                            <i class="fas fa-book-open"></i> Portfolio </a>
-                        </li>
+                                <!-- Beginning of Anchor -->
+                                <a 
+                                    class="nav-link" 
+                                    href="./index.html"
+                                >
 
-                        <!-- Third List Item with Anchor Link to CONTACT page -->
-                        <li 
-                            class="nav-item"
-                        >
-                            <a 
-                                class="nav-link" 
-                                href="./contact.html"
+                                    <!-- Font Awesome Icon for About Me Link -->
+                                    <i 
+                                        class="fas fa-user-circle"
+                                    ></i> About 
+                                </a>
+                                <!-- End of Anchor -->
+
+                            </li>
+                            <!-- End of First List Item -->
+
+                            <!-- Second List Item with anchor link to PORTFOLIO page -->
+                            <li 
+                                class="nav-item styled-font"
                             >
+
+                                <!-- Beginning of Anchor -->
+                                <a 
+                                    class="nav-link" 
+                                    href="./portfolio.html"
+                                >
+
+                                    <!-- Font Awesome Icon for Portfolio Page Link -->
+                                    <i 
+                                        class="fas fa-book-open"
+                                    ></i> Portfolio 
+                                </a>
+                                <!-- End of Anchor -->
+
+                            </li>
+                            <!-- End of Second List Item -->
+
+                            <!-- Third List Item with Anchor Link to CONTACT page -->
+                            <li 
+                                class="nav-item nav-item-font"
+                            >
+                                
+                                <!-- Beginning of Anchor -->
+                                <a 
+                                    class="nav-link" 
+                                    href="./contact.html"
+                                >
                             
-                            <!-- Font Awesome Icon for Contact Page Link -->
-                            <i class="fas fa-at"></i> Contact Me </a>
-                        </li>
+                                    <!-- Font Awesome Icon for Contact Page Link -->
+                                    <i 
+                                        class="fas fa-at"
+                                    ></i> Contact 
+                                </a>
+                                <!-- End of Anchor -->
 
-                    </ul>
-                    <!-- End of Unordered List -->
+                            </li>
+                            <!-- End of Third List Item -->
 
-                </div>
-                <!-- End of Navbar Division -->
+                        </ul>
+                        <!-- End of Unordered List -->
+
+                    </div>
+                    <!-- End of Navbar Division -->
 
             </nav>
             <!--End of Navigation Element.-->
 
-
+        </header>
+        <!-- End of Header -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -153,7 +191,7 @@
         ></script>
 
     </body>
-  <!-- End of body element -->
+    <!-- End of body element -->
 
 </html>
 <!-- End of HTML-->
