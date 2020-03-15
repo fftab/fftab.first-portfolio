@@ -20,7 +20,9 @@ html {
 /* Assigned a font family to the styled-font class. */
 .styled-font {
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    font-size: x-large;
 
 }
 
