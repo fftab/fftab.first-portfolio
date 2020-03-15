@@ -173,49 +173,88 @@
         </header>
         <!-- End of Header -->
 
-        <!-- Anchor Links to Contact Methods-->
+        <!-- Beginning of Main Content Element -->
+        <main 
+            class="container"
+        >
 
-        <a href="mailto:fftabarez97@gmail.com" subject="subject text"></a>
-        <!-- Form Copied from Bootstrap Example -->
-        <form>
+            <!-- Form Copied from Bootstrap Template -->
+            <form
+                action="mailto:fftabarez97@gmail.com" 
+                method="get" 
+                enctype="text/plain"
+            >
 
+                <!-- Beginning of E-Mail Address Text Box -->
+                <div 
+                    class="form-group"
+                >
+                    <label 
+                        class="styled-font"
+                        for="exampleFormControlInput1"
+                    > E-mail Address </label>
+                    
+                    <input 
+                        type="email" 
+                        class="form-control" 
+                        id="exampleFormControlInput1" 
+                        placeholder="name@example.com"
+                    />
 
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-
-            <form action="https://formcarry.com/s/XXXXXX" method="POST">
-                <input type="email" name="email">
-                <input type="submit" value="Send">
-            </form>
-
-            <form>
-                <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input 
-                    type="email" 
-                    class="form-control" 
-                    id="exampleFormControlInput1" 
-                    placeholder="name@example.com"/>
                 </div>
+                <!-- End of E-Mail Text Box -->
+                
+                <!-- Beginning of Subject Text Box -->
+                <div 
+                    class="form-group"
+                >
+                    <label 
+                        class="styled-font"
+                        for="exampleFormControlInput1"
+                    > Subject </label>
 
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">Subject</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Subject"/>
+                    <input 
+                        type="text" 
+                        class="form-control" 
+                        id="exampleFormControlInput1" 
+                        placeholder="Subject"
+                    />
+
                 </div>
+                <!-- End of Subject Text Box -->
             
+                <!-- Beginning of Message Text Area -->
+                <div 
+                    class="form-group"
+                >
 
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label 
+                        class="styled-font"
+                        for="exampleFormControlTextarea1"
+                    > Message </label>
+
+                    <textarea 
+                        class="form-control" 
+                        id="exampleFormControlTextarea1" 
+                        rows="3"
+                    ></textarea>
+
                 </div>
+                <!-- End of Message Text Area -->
+
+                <!-- Beginning of Submit Button -->
+                <input
+                    class="btn btn-light salmon"
+                    type="submit" 
+                    value="Send"
+                >
+                <!-- End of Submit Button-->
 
             </form>
-
-        </form>
-
-
+            <!-- End of Form -->
+        
+        </main>
+        <!-- End of Main Content Element -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
