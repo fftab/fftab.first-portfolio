@@ -1,25 +1,37 @@
+/* Beginning of CSS. This CSS is being used in all three html files. */
+
+/* Assigning HTML the relative position and a minimum height of the entire view. */
+/* I got help on this part from classmates Ikemous Barranco and Erica Jayne. */
+html {
+
+    position: relative;
+
+    min-height: 100%;
+
+}
+
+/* Assigned a font family to the header-font class. */
 .header-font {
 
     font-family: 'Shrikhand', cursive;
 
 }
 
+/* Assigned a font family to the styled-font class. */
 .styled-font {
-    font-family: "Roboto", sans-serif;
-}
 
-.main-p-margin {
-
-    margin: 10px;
+    font-family: 'Roboto', sans-serif;
 
 }
 
+/* Assigned the color salmon to the background color property of the class salmon. This is used for the buttons and navbar. */
 .salmon {
 
     background-color: salmon;
 
 }
 
+/* Assigned a margin and padding to the container class to create space between the content and the navbar on all three pages. */
 .container {
 
     margin: 10px;
@@ -27,3 +39,48 @@
     padding-top: 10px;
 
 }
+
+/* Adds padding to bottom of elements. */
+.padding {
+
+    padding-bottom: 10px;
+
+}
+
+/* Extra padding for responsive layout of sticky footer. */
+.extra-padding {
+
+    padding-bottom: 60px;
+
+}
+
+/* Assigned a 10px margin to the margin class to create space between the paragraphs, cards and the rest of the content. */
+.margin {
+
+    margin: 10px;
+
+}
+
+/* Assigned an absolute position to the footer at the bottom (0) and left (0) of the page with a width spanning the view. */
+footer {
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+}
+
+/* Assigned font and text alignment to the footer-text classs. */
+.footer-text {
+
+    text-align: center;
+
+    font-family: 'Shrikhand', cursive;
+
+}
+
+/* End of CSS. */
