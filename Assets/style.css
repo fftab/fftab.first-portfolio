@@ -8,6 +8,8 @@ html {
 
     min-height: 100%;
 
+    width: 100vw;
+
 }
 
 /* Assigned a font family to the header-font class. */
@@ -66,7 +68,7 @@ html {
 /* Assigned an absolute position to the footer at the bottom (0) and left (0) of the page with a width spanning the view. */
 footer {
 
-    position: absolute;
+    position: fixed;
 
     bottom: 0;
 
