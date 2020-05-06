@@ -181,9 +181,8 @@
 
             <!-- Form Copied from Bootstrap Template -->
             <form
-                action="mailto:fftabarez97@gmail.com" 
-                method="get" 
-                enctype="text/plain"
+                action="https://formspree.io/mnqbeeyg" 
+                method="POST"
             >
 
                 <!-- Beginning of E-Mail Address Text Box -->
@@ -196,8 +195,9 @@
                     > E-mail Address </label>
                     
                     <input 
-                        type="email" 
-                        class="form-control" 
+                        type="email"
+                        class="form-control"
+                        name="_replyto"
                         id="exampleFormControlInput1" 
                         placeholder="name@example.com"
                     />
@@ -215,7 +215,8 @@
                     > Subject </label>
 
                     <input 
-                        type="text" 
+                        type="text"
+                        name="_subject" 
                         class="form-control" 
                         id="exampleFormControlInput1" 
                         placeholder="Subject"
@@ -235,6 +236,8 @@
                     > Message </label>
 
                     <textarea 
+                        type="text"
+                        name="message"
                         class="form-control" 
                         id="exampleFormControlTextarea1" 
                         rows="3"
@@ -246,7 +249,7 @@
                 <!-- Beginning of Submit Button -->
                 <input
                     class="btn btn-light salmon margin padding"
-                    type="submit" 
+                    type="submit"
                     value="Send"
                 >
                 <!-- End of Submit Button-->
